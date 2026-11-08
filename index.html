@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YouTube Clone</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<input type="checkbox" id="dark-toggle" hidden>
+
+<header class="navbar">
+
+    <div class="logo">
+        <label for="menu-toggle" class="menu">☰</label>
+        <span class="yt-icon">▶️</span>
+        <span class="logo-text">YouTube</span>
+    </div>
+
+    <div class="search">
+        <input type="text" placeholder="Search">
+        <button>🔍</button>
+    </div>
+
+    <div class="right-menu">
+        <button>＋ Create</button>
+        <button>🔔</button>
+        <button>👤</button>
+        <label for="dark-toggle" class="dark-btn">🌙</label>
+    </div>
+
+</header>
+
+<input type="checkbox" id="menu-toggle" hidden>
+
+<aside class="sidebar">
+
+    <a href="#home">🏠 Home</a>
+    <a href="#shorts">🎬 Shorts</a>
+    <a href="#subscriptions">📺 Subscriptions</a>
+
+    <hr>
+
+    <h3>You ></h3>
+    <a href="#history">🕘 History</a>
+    <a href="#playlists">📂 Playlists</a>
+    <a href="#your-videos">▶️ Your videos</a>
+    <a href="#liked">👍 Liked videos</a>
+
+    <hr>
+
+    <h3>Explore</h3>
+    <a href="#trending">🔥 Trending</a>
+    <a href="#music">🎵 Music</a>
+    <a href="#gaming">🎮 Gaming</a>
+    <a href="#news">📰 News</a>
+
+</aside>
+
+<main class="content" id="home">
+
+    <div class="categories">
+        <a href="#home" class="selected">All</a>
+        <a href="#music">Music</a>
+        <a href="#gaming">Gaming</a>
+        <a href="#live">Live</a>
+        <a href="#technology">Technology</a>
+        <a href="#comedy">Comedy</a>
+        <a href="#education">Education</a>
+    </div>
+
+    <section class="video-grid">
+
+        <div class="video-card">
+            <a href="https://www.youtube.com/embed/aqz-KE-bpKQ"
+               target="_blank">
+                <img src="https://img.youtube.com/vi/aqz-KE-bpKQ/maxresdefault.jpg">
+            </a>
+            <div class="video-info">
+                <div class="avatar">A</div>
+                <div>
+                    <h3>Big Buck Bunny - Animated Movie</h3>
+                    <p>Animation Studio</p>
+                    <p>2.5M views • 2 years ago</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="video-card">
+            <a href="https://www.youtube.com/embed/kJQP7kiw5Fk"
+               target="_blank">
+                <img src="https://img.youtube.com/vi/kJQP7kiw5Fk/maxresdefault.jpg">
+            </a>
+            <div class="video-info">
+                <div class="avatar">M</div>
+                <div>
+                    <h3>Despacito - Official Music Video</h3>
+                    <p>Music Channel</p>
+                    <p>8.2B views • 8 years ago</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="video-card">
+            <a href="https://www.youtube.com/embed/ScMzIvxBSi4"
+               target="_blank">
+                <img src="https://img.youtube.com/vi/ScMzIvxBSi4/maxresdefault.jpg">
+            </a>
+            <div class="video-info">
+                <div class="avatar">N</div>
+                <div>
+                    <h3>Beautiful Nature and Relaxing Views</h3>
+                    <p>Nature World</p>
+                    <p>500K views • 1 month ago</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="video-card">
+            <a href="https://www.youtube.com/embed/ysz5S6PUM-U"
+               target="_blank">
+                <img src="https://img.youtube.com/vi/ysz5S6PUM-U/maxresdefault.jpg">
+            </a>
+            <div class="video-info">
+                <div class="avatar">C</div>
+                <div>
+                    <h3>Learn HTML and CSS for Beginners</h3>
+                    <p>Code Academy</p>
+                    <p>1.2M views • 6 months ago</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="video-card">
+            <a href="https://www.youtube.com/embed/LXb3EKWsInQ"
+               target="_blank">
+                <img src="https://img.youtube.com/vi/LXb3EKWsInQ/maxresdefault.jpg">
+            </a>
+            <div class="video-info">
+                <div class="avatar">T</div>
+                <div>
+                    <h3>Explore the Beautiful World</h3>
+                    <p>Travel Diaries</p>
+                    <p>900K views • 3 weeks ago</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="video-card">
+            <a href="https://www.youtube.com/embed/jfKfPfyJRdk"
+               target="_blank">
+                <img src="https://img.youtube.com/vi/jfKfPfyJRdk/maxresdefault.jpg">
+            </a>
+            <div class="video-info">
+                <div class="avatar">R</div>
+                <div>
+                    <h3>Live Music Radio - Study and Relax</h3>
+                    <p>Relaxing Music</p>
+                    <p>Live • 50K watching</p>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+</main>
+
+</body>
+</html>
